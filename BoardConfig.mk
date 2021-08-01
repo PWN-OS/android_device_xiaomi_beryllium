@@ -26,7 +26,7 @@ BOARD_HAVE_QCOM_FM := true
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := nh_defconfig
+TARGET_KERNEL_CONFIG := pwn_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
