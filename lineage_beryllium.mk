@@ -12,6 +12,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit google apps
 $(call inherit-product, vendor/gapps/config.mk)
 
+# Inherit PWN
+$(call inherit-product, vendor/pwn/conf/pwn.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
