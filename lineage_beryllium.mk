@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit google apps
-$(call inherit-product, vendor/gapps/config.mk)
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Inherit PWN
 $(call inherit-product, vendor/pwn/conf/pwn.mk)
