@@ -31,9 +31,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# OpenGapps
-GAPPS_VARIANT := micro
-
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
